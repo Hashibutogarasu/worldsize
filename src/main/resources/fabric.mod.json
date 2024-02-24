@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "worldsize",
+	"version": "${version}",
+	"name": "WorldSize Display",
+	"description": "Displays world folder size at select world screen.",
+	"authors": [
+		"Hahsibutogarasu"
+	],
+	"contact": {
+		"sources": "https://github.com/Hashibutogarasu/worldsize"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/worldsize/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"io.github.hashibutogarasu.worldsize.WorldsizeClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "worldsize.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
