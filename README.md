@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/Hashibutogarasu/worldsize/main/img/2024-02-25_02.19.37.png" alt="preview1">
+<img src="https://raw.githubusercontent.com/Hashibutogarasu/worldsize/main/img/2024-02-25_02.46.02.png" alt="preview1">
 
 ## Build
 ```
