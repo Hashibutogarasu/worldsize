@@ -4,10 +4,10 @@
 
 ## Build
 ```
-./gradlew.bat run build
+./gradlew build
 ```
 
 ## Run Client
 ```
-./gradlew.bat run client
+./gradlew runClient
 ```
